@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Calory tracker project </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+
+<body>
+    <!-- creating navbar-->
+    <nav>
+        <div class="nav-wrapper red">
+            <div class="container">
+                <a href="#" class="brand-logo center">Kalorite jälgimine</a>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <!-- SIIA TULEB TRACKER CONTENT-->
+    </div>
+
+    <div class="container">
+        <!-- form card -->
+        <div class="card">
+            <div class="card-content green-text">
+                <span class="card-title">Lisa toit või jook </span>
+                <form class="col s6">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="Lisa toit/jook" id="item-name">
+                            <label for="item-name">Toit</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="Lisa kalorid" id="item-calories">
+                            <label for="item-calories">Kalorid</label>
+                        </div>
+                    </div>
+                    <button class="add-btn btn green darken-4 center">
+                        <i class="fa fa-plus"></i> Lisa toit/jook
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- counting calories -->
+    <h4 class="center-align"> Kalorid kokku: <span class="total-calories">0</span></h4>
+
+
+
+    <!-- Compiled and minified JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
